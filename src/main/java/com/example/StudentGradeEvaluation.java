@@ -32,21 +32,25 @@ public class StudentGradeEvaluation {
         else
         {
             grade="F";
-            if(age<=25&& examScore>=80)
-            {
-                System.out.println("The student is eligible for a scholarship.");
-
-            }
-            else
-            {
-                System.out.println("The student is not eligible for a scholarship.");
-            }
-            
         }
+           
+            
+        
            System.out.println("Name:"+name);
            System.out.println("Age:"+age);
            System.out.println("Examscore:"+examScore);
            System.out.println("Grade:"+grade);
+
+           if(age<25 && examScore>=80)
+           {
+               System.out.println("The student is eligible for a scholarship.");
+
+           }
+           else
+           {
+            
+               System.out.println("The student is not eligible for a scholarship.");
+           }
         
         
 
